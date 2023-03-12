@@ -1,5 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  /* background-image: url(images/images.jpeg); */
+}
+
+header{
+  position: relative;
+}
+header h1{
+text-align: center;
+padding: 10px;
+} 
+header nav{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+header nav .a{
+  padding: 10px;
+  margin: 5px;
+}
+section{
+  position: relative;
+}
+section figure{
+  margin-left: 25%;
+}
+section .a{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 20px;
+}
+section .b{
+  font-weight: 20px;
+  text-align: center;
+  text-align: center;
+}
+.l-nav{
+  top: 70px;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding:80px;
+  background-color: rgba(150, 4, 4, 0.918);
+}
+.contact{
+  margin-left: 5%;
+}
+.correspondence{
+margin-top: -70px;
+  margin-left: 30%;
+}
+.links{
+  margin-left: 60%;
+margin-top: -70px;
+}
+.follow{
+margin-top: -70px;
+margin-left: 90%;
 }
